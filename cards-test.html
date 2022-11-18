@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+
+
+<body>
+
+<h1>Research Areas</h1>
+
+ <div class="card">
+      <h2>Machine Learning</h2>
+  <!--    <img src="./images/data-science-icon-20.jpg" alt="Machine Learning image" style="width:60%">  -->
+<p>
+Information-theoretic / computational limits
+</p>
+<p>Generative adversarial networks
+</p> 
+<p>Explainable AI methods 
+</p>
+  
+    </div>
+
+ <div class="card">
+      <h2>Machine Learning</h2>
+  <!--    <img src="./images/data-science-icon-20.jpg" alt="Machine Learning image" style="width:60%">  -->
+<p>
+Information-theoretic / computational limits
+</p>
+<p>Generative adversarial networks
+</p> 
+<p>Explainable AI methods 
+</p>
+  
+    </div>
+
+<div class="column">
+    <div class="card">
+      <h2>Machine Learning</h2>
+  <!--    <img src="./images/data-science-icon-20.jpg" alt="Machine Learning image" style="width:60%">  -->
+<p>
+Information-theoretic / computational limits
+</p>
+<p>Generative adversarial networks
+</p> 
+<p>Explainable AI methods 
+</p>
+  
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h2>Algorithmic Game Theory / Microeconomics</h2>
+     <!-- <img src="./images/AGT.jpeg" alt="Algorithmic Game Theory image" style="width:80%">    -->
+      <p>Auction Theory / Mechanism Design</p><p>
+­ Game Dynamics and Equilibria</p>
+<p>
+­ Multi-agent Systems</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h2>Algorithms & Complexity / Theoretical Computer Science</h2>
+     <!-- <img src="./images/Algo.jpg" alt="Theoretical Computer Science image" style="width:68%">  -->
+      <p>Approximation Algorithms</p>
+      <p>Computational Complexity / Hardness</p>    
+      <p>Online Algorithms</p>
+    </div>
+  </div>
+  
+  
+</div>
+
+
+<h4>Projects</h4>
+<div class="card">
+
+<ul><li> Energy-Tunable Combinatorial Algorithms (Swiss National Science Foundation project)
+<br> 
+(some papers: <a target ="blank" href="http://drops.dagstuhl.de/opus/volltexte/2018/8526/pdf/LIPIcs-STACS-2018-36.pdf">[GLLP18]</a>,<a target="blank" href="https://arxiv.org/abs/1709.07249">[GLLP17]</a>,<a target="blank" href="https://link.springer.com/chapter/10.1007%2F978-3-319-73117-9_36">[GP17]</a>,<a target="blank" href="https://arxiv.org/abs/1610.09223">[GP16]</a>.
+</ul>
+
+Two older research projects (still working on it) are <a href="papers/penna-PostDoc-project.pdf">here</a> 
+and <a href="papers/research-statement-penna.pdf">
+here</a> (summary of some <a href="papers/achievements-research-plan-2011.pdf">results</a>).
+
+</div>
+
+</body>
+</html>
