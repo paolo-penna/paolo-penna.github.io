@@ -1,0 +1,20 @@
+<html>
+<head>
+<title> BibTeX: Optimal collusion-resistant mechanisms with verification, P. Penna and C. Ventre</title>
+</head>
+<body>
+<pre>
+@article{PenVen14,
+  author    = {Paolo Penna and
+               Carmine Ventre},
+  title     = {Optimal collusion-resistant mechanisms with verification},
+  journal   = {Games and Economic Behavior},
+  volume    = {86},
+  pages     = {491--509},
+  year      = {2014},
+  url       = {http://dx.doi.org/10.1016/j.geb.2012.09.002},
+  doi       = {10.1016/j.geb.2012.09.002},
+  timestamp = {Mon, 01 Sep 2014 16:09:12 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/geb/PennaV14},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}</pre>
