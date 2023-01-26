@@ -1,0 +1,67 @@
+<html>
+
+<link rel="stylesheet" href="paolo.css" type="text/css">
+
+
+<head>
+<title> Errata: On Designing Truthful Mechanisms for Online Scheduling,
+V. Auletta, R. De Prisco, P. Penna, and P. Persiano
+</title>
+</head>
+
+<body>
+In our <a href="sirocco05online.pdf">sirocco05 paper</a>
+we erroneously reported an upper bound of 1+1/(<i>r</i>+1) on the competitive ratio of the
+greedy algorithm for two machines whose speeds ratio is <i>r</i> &lt; &phi;
+(where &phi; is the <a href="http://en.wikipedia.org/wiki/Golden_ratio">golden ratio</a>, that is,
+&phi; =1+1/&phi;). <br><br>
+
+
+The correct upper bound is 1+<i>r</i>/(<i>r</i>+1)
+[<a href="http://link.aip.org/link/?SMJCAT/9/91/1">Cho and Sahni 1980</a>], and we cannot claim that,
+for some values of <i>r</i>, this algorithm achieves
+a competitive ratio smaller than our lower bound for truthful mechanisms without verification.
+For the same reason, we cannot claim that no mechanism without verification can attain
+the same competitive ratio of a mechanism with verification (namely, the one running the greedy algorithm).
+<br><br>
+
+Therefore, the following two questions remain open:
+<ol>
+
+<li>
+Is the "selfish"  version of the online task scheduling problem "more difficult" than its "unselfish" version?
+</li>
+
+<li>
+Does verification really help?
+</li>
+
+</ol>
+
+In the <a href="sirocco05onlinefull.pdf">full version</a> of the paper,
+we show that the lower bound holds also for mechanisms with verification (i.e., for roughly monotone algorithms).
+It thus seems plausible that a  stronger lover bound might hold for mechanisms without verification (
+i.e., for monotone algorithms). <br><br>
+
+A possible
+direction for answering both questions above is to show that, for two machines whose speeds ratio is <i>r</i>,
+one of the following holds:
+
+<ol>
+
+<li>
+No monotone algorithm can be less than (1+<i>r</i>/(<i>r</i>+1))-competitive for 1 &lt; <i> r</i> &lt; &phi;;</li>
+
+<li>
+No monotone algorithm can be less than (1+1/<i>r</i>)-competitive for   &phi; &gt; <i>r</i>.</li>
+</ol>
+
+This would imply that, for the corresponding range of values of <i>r</i>, no truthful mechanism without verification
+can be as good as an online algorithm (in particular, the greedy one). Moreover, verification does help since the greedy can
+be turned into a truthful mechanism with verification having the same competitive ratio.
+So, the answer to both questions would be "yes" if restricting to the case in which <i>r</i> is
+in some interval of values.
+
+</body>
+
+</html> 
